@@ -1,0 +1,16 @@
+{
+    "name": "eddy/etu-projet",
+    "description": "projet PHP bachelor",
+    "type": "project",
+    "require": {
+        "vlucas/spot2": "^2.2",
+        "twig/twig": "^2.3"
+    },
+	"autoload": {
+      "psr-4": {
+        "Components\\": "components/",
+        "Controllers\\": "controllers/",
+        "Models\\": "models/"
+      }
+    }
+}
